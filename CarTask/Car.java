@@ -70,8 +70,8 @@ public class Car {
                 time1 = time1 + distance / laps / speed1;
                 time2 = time2 + distance / laps / speed2;
                 System.out.printf("\nВремя автомобилей после %d круга:\n", i+1);
-                System.out.println(time1);
-                System.out.println(time2);
+                System.out.printf("Первый автомобиль: %.2f\n", time1);
+                System.out.printf("Второй автомобиль: %.2f", time2);
             } if(time1 < time2) {
                 System.out.printf("\nВ гонке победил автомобиль %s.", this.model);
             } else if (time2 < time1) {
